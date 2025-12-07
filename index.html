@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <meta name="description" content="Website statis canggih powered by Upam CMS">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="brand" id="nav-brand">My Site</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="#" id="link-soc-1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero-section">
+        <div class="container">
+            <h1 id="hero-title">Welcome to Upam</h1>
+            <p id="hero-desc">A modern static site managed directly from your browser.</p>
+        </div>
+    </header>
+
+    <div class="container main-layout">
+        
+        <main id="content-area">
+            <div class="loader"><i class="fas fa-circle-notch fa-spin"></i> Memuat konten...</div>
+        </main>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3><i class="fas fa-fire"></i> Trending</h3>
+                <ul id="widget-recent" class="widget-list">
+                    <li>Loading...</li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h3><i class="fas fa-tags"></i> Topik</h3>
+                <div id="widget-tags" class="tags-cloud">
+                    </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">&copy; 2025 Powered by Upam Pro.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
